@@ -1,0 +1,32 @@
+@import url('https://fonts.googleapis.com/css2?family=Edu+NSW+ACT+Foundation:wght@400;500;700&family=PT+Serif&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'PT Serif', serif;
+}
+body{
+    background-color: whitesmoke;
+}
+.login-section{
+    border: 2px solid yellow;
+    height: 490px;
+    width: 400px;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%);
+    backdrop-filter: blur(10px);
+    border-radius: 10px;
+    transition: .3s;
+}
+.login-section :hover{
+    box-shadow: 0 0 60px yellow;
+}
+.login-section .forbox{
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    height: 100%;
+}
